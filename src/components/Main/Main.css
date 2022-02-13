@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    color: mintcream;
+}
+
+h1 {
+    font-family: 'Arvo', serif;
+    font-size: 4.5em;
+    color: indianred;
+    margin-bottom: 0em;
+    margin-top: 0.25em;
+    text-shadow: 0px 0px 15px mintcream;
+    /* text-align: center; */
+}
+
+h3 {
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+    margin-top: 0.5em;
+    font-size: 1.5em;
+    /* text-align: center; */
+    color: mintcream;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+a {
+    color: mintcream;
+    cursor: pointer;
+}
+
+.MainText {
+    align-self: flex-start;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+.SubText {
+    font-size: 1.25em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+img {
+    float: right;
+}
