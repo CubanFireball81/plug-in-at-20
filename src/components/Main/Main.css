@@ -1,6 +1,8 @@
 body {
     display: flex;
     color: mintcream;
+    width: 100%;
+    height: 100%;
 }
 
 h1 {
@@ -12,6 +14,14 @@ h1 {
     text-shadow: 0px 0px 15px mintcream;
     /* text-align: center; */
 }
+
+h2 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
 
 h3 {
     font-family: 'Arvo', serif;
@@ -39,9 +49,16 @@ a {
     align-self: flex-start;
     flex-direction: column;
     width: 60%;
+    height: 100%;
     margin-left: 100px;
     margin-top: 150px;
 }
+
+img {
+    float: right;
+    margin-top: 0.25em;
+}
+
 
 .SubText {
     font-size: 1.25em;
@@ -49,6 +66,8 @@ a {
     margin-bottom: 0em;
 }
 
-img {
-    float: right;
+.SMSNumber {
+    color: indianred;
+    border: 2px solid mint;
+    text-shadow: 0px 0px 15px mintcream;
 }
