@@ -1,8 +1,6 @@
 body {
     display: flex;
     color: mintcream;
-    width: 100%;
-    height: 100%;
 }
 
 h1 {
@@ -12,7 +10,6 @@ h1 {
     margin-bottom: 0em;
     margin-top: 0.25em;
     text-shadow: 0px 0px 15px mintcream;
-    /* text-align: center; */
 }
 
 h2 {
@@ -28,7 +25,6 @@ h3 {
     font-weight: 400;
     margin-top: 0.5em;
     font-size: 1.5em;
-    /* text-align: center; */
     color: mintcream;
 }
 
@@ -51,12 +47,14 @@ a {
     width: 60%;
     height: 100%;
     margin-left: 100px;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 img {
     float: right;
     margin-top: 0.25em;
+    margin-right: 5em;
+
 }
 
 
@@ -70,4 +68,77 @@ img {
     color: indianred;
     border: 2px solid mint;
     text-shadow: 0px 0px 15px mintcream;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1026px) {
+    .MainText {
+        font-size: smaller;
+        width: 50%;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    img {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 913px) {
+    .MainText {
+        font-size: large;
+        width: 50%;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    img {
+        width: 200px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    img {
+        display: none;
+    }
+
+    .MainText {
+        font-size: smaller;
+        width: 80%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 541px) {
+    .MainText {
+        font-size: x-small;
+        width: 50%;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    img {
+        display: inline-block;
+        width: 150px;
+    }
+}
+
+
+@media screen and (max-width: 376px) {
+    img {
+        display: none;
+    }
+
+    .MainText {
+        font-size: smaller;
+        width: 90%;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
 }

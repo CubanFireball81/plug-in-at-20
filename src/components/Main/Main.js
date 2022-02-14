@@ -13,7 +13,7 @@ const Main = () => {
                 to plug in your car when the temperature will drop 
                 below 20º.</h3>
                 <p class="SubText">Just text your zip code to:</p>
-                <h2 className='SMSNumber animate__animated animate__flash animate__repeat-2'>907-312-2014</h2>
+                <h2 className='SMSNumber animate__animated animate__lightSpeedInRight'>907-312-2014</h2>
                 <p class="SubText">and we'll start sending you reminders.</p>
                 <p> Using a block heater reduces engine wear and air pollution. 
                 For more information, visit 
