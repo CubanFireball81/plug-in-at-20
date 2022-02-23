@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap");
 
 * {
@@ -9,7 +10,7 @@
   width: 100vw;
   height: 100vh;
   min-height: 100%;
-  font-family: "Poppins", sans-serif;
+  font-family: "Arvo", "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: url("http://plugin.codeforanchorage.org/img/coldCar.svg");
