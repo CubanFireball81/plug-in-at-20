@@ -16,7 +16,7 @@ const Main = () => {
                 <h2 className='SMSNumber animate__animated animate__lightSpeedInRight'>907-312-2014</h2>
                 <p class="SubText">and we'll start sending you reminders.</p>
                 <p> Using a block heater reduces engine wear and air pollution. 
-                For more information, visit: <a href="https://www.muni.org/Departments/health/Admin/environment/AirQ/Pages/EngineBlockHeater.aspx">Anchorage Environmental Health Services</a>.                
+                For more information, visit: <a href="https://www.muni.org/Departments/health/Admin/environment/AirQ/Pages/EngineBlockHeater.aspx">Anchorage Environmental Health Services</a>.</p>                
                 <p className='Credits'>Created by <a href="http://codeforanchorage.org">Code for Anchorage.</a></p>
                 
             </div>
